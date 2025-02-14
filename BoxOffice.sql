@@ -1,5 +1,5 @@
 /*
-Box Office 
+ Box Office 
 ------------------
 
 --table creation
@@ -25,16 +25,13 @@ Now Table We have :
 | 5        Pirates of the Caribbean 963000   |
 |--------------------------------------------|                                  
 
-
 Given Query: 
 SELECT FROM movies
-
 
 Problem: 
 Complete the given query to extract the revenue field data from the table
 
 Solution: 
-
 SELECT revenue FROM movies;
 
 output: 
