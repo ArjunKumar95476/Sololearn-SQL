@@ -13,8 +13,7 @@ insert into movies values(3,'Jurassic Park',1030000);
 insert into movies values(4,'Frozen',1434000);
 insert into movies values(5,'Pirates of the Caribbean', 963000);
 
---
-Now Table We have : 
+--Now Table We have : 
 |--------------------------------------------|
 | id      title                    revenue   |
 |--------------------------------------------|
