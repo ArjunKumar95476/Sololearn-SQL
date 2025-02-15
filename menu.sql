@@ -1,6 +1,6 @@
 -- Menu
 
-Magine You Are Developing A Mobile App For A Restaurant And You Want To Show Only 4 Dishes On The First Page Of  The Menu.
+Imagine You Are Developing A Mobile App For A Restaurant And You Want To Show Only 4 Dishes On The First Page Of  The Menu.
 
 --Table created
 CREATE TABLE menu ( id NUMBER,name VARCHAR2(100), price NUMBER(10,2), category VARCHAR2(100));
