@@ -1,4 +1,4 @@
-/*
+
  Box Office 
 ------------------
 
@@ -7,22 +7,22 @@ create table movies(id number,title varchar2(100), revenue number);
 
 --inserted movie data in table movies
 
-insert into movies values(1,'Home Alone',477000);
-insert into movies values(2,'Star Wars',775000);
-insert into movies values(3,'Jurassic Park',1030000);
-insert into movies values(4,'Frozen',1434000);
-insert into movies values(5,'Pirates of the Caribbean', 963000);
+insert into movies values(1, 'Home Alone'               ,477000 );
+insert into movies values(2, 'Star Wars'                ,775000 );
+insert into movies values(3, 'Jurassic Park'            ,1030000);
+insert into movies values(4, 'Frozen'                   ,1434000);
+insert into movies values(5, 'Pirates of the Caribbean' ,963000 );
 
 --Now Table We have : 
-|--------------------------------------------|
-| id      title                    revenue   |
-|--------------------------------------------|
-| 1        Home Alone               477000   |  
-| 2        Star Wars                775000   |
-| 3        Jurassic Park            1030000  |
-| 4        Frozen                   1434000  |
-| 5        Pirates of the Caribbean 963000   |
-|--------------------------------------------|                                  
+|------|-----------------------------|---------|
+| id   |    title                    |revenue  |
+|------|-----------------------------|---------|
+| 1    |    Home Alone               |477000   |  
+| 2    |    Star Wars                |775000   |
+| 3    |    Jurassic Park            |1030000  |
+| 4    |    Frozen                   |1434000  |
+| 5    |    Pirates of the Caribbean |963000   |
+|------|-----------------------------|---------|                                  
 
 Given Query: 
 SELECT FROM movies
@@ -41,4 +41,3 @@ output:
  1434000
  963000 
  
- */
